@@ -1,5 +1,4 @@
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw0MjGQ7vw5XMxsWB0Dh2w1mi7ufH2W26Cf9TeIabpcF5cE23-St-nMz41oKgOlpaSHQA/execهنا";
-
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw0MjGQ7vw5XMxsWB0Dh2w1mi7ufH2W26Cf9TeIabpcF5cE23-St-nMz41oKgOlpaSHQA/exec";
 function getParam(name){
 
     return new URLSearchParams(window.location.search).get(name) || "";
