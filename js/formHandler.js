@@ -7,7 +7,7 @@
 // ⚙️  CONFIG — ضع رابط Google Apps Script هنا
 // ======================================================
 const SHEETS_CONFIG = {
-    scriptUrl: 'https://script.google.com/macros/s/AKfycbw0MjGQ7vw5XMxsWB0Dh2w1mi7ufH2W26Cf9TeIabpcF5cE23-St-nMz41oKgOlpaSHQA/exec',
+    scriptUrl: 'https://script.google.com/macros/s/AKfycbzhyUcV6yiL9wIs_gg4ohOEzmUI9uFvNzyvPZ90h2TUVOaBUyrvfzD0GU23rU459xNEMw/exec',
     sheetName: 'Leads'
 };
 // ======================================================
