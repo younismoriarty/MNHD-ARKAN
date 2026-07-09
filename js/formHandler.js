@@ -56,12 +56,15 @@ async function sendToGoogleSheets(data) {
     }
 
     try {
-        await fetch(SHEETS_CONFIG.scriptUrl, {
-            method: 'POST',
-            mode: 'no-cors',
-            headers: { 'Content-Type': 'application/json' },
-            keepalive: true,
-            body: JSON.stringify(payload)
+        const response = await fetch(SHEETS_CONFIG.scriptUrl, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload)
+});
+
+console.log(await response.text());
         });
         console.log('✅ Data sent to Google Sheets:', payload);
         return true;
