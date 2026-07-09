@@ -1,4 +1,4 @@
-const SCRIPT_URL = "ضع رابط Apps Script هنا";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw0MjGQ7vw5XMxsWB0Dh2w1mi7ufH2W26Cf9TeIabpcF5cE23-St-nMz41oKgOlpaSHQA/execهنا";
 
 function getParam(name){
 
